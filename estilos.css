@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+html{
+	background-color: green;
+}
+h1{
+color:black;
+text-align:center;
+font-size:5em;
+}
+svg{
+	display: block;
+	margin: auto;
+}
+path{
+	transform-origin: 50% 50%;
+	transition: 2s;
+}
+a:hover path{
+transform: scale(1.4);
+transform-origin: 50% 50%;
+transition: 2s;
+fill:red;
+cursor:had;
+}
+.texto{
+display: none;
+}
+a:hover > .texto{
+	display: block;
+}
